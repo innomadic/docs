@@ -15,7 +15,7 @@ An installation of Pop!_OS was used to write this documentation, however, instal
 
 Firstly, be aware these will need to be run as root so sudo/su - appropriately!
 
-`apt install apache2 php mysql-server php-gd php-mysql php-zip php-curl php-gettext php-pdo`
+`apt install apache2 php libapache2-mod-php mysql-server php-gd php-mysql php-zip php-curl php-gettext php-pdo`
 
 The relevant packages will be installed, however, you still need to enable mod_rewrite on Apache.
 
